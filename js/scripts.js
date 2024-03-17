@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", function() {
             navbarToggler.click();
         });
     });
-<<<<<<< HEAD
     var typed = new Typed('.niches', {
         strings: ["Software Engineer", "Digital Marketer"],
         typeSpeed: 30,
@@ -34,7 +33,3 @@ document.addEventListener("DOMContentLoaded", function() {
   
 
 });
-
-=======
-});
->>>>>>> parent of 176938b (Toggle Button Problem solved in mobile view)
