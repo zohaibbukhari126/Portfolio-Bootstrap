@@ -1,5 +1,7 @@
 
 document.addEventListener("DOMContentLoaded", function() {
+    AOS.init();
+
     // Get the navbar toggler element
     const navbarToggler = document.querySelector('.navbar-toggler');
 
@@ -18,4 +20,17 @@ document.addEventListener("DOMContentLoaded", function() {
             bootstrap.Navbar.toggleNavbar(navbarCollapse);
         });
     });
+    var typed = new Typed('.niches', {
+        strings: ["Software Engineer", "Digital Marketer"],
+        typeSpeed: 30,
+        backSpeed: 30,
+        loop: true,
+        backDelay: 2000
+      });
+      
+      
+    
+  
+
 });
+
