@@ -2481,6 +2481,8 @@ progress {
   cursor: default;
 }
 
+
+
 .nav-tabs {
   --bs-nav-tabs-border-width: 1px;
   --bs-nav-tabs-border-color: #dee2e6;
@@ -9808,3 +9810,4 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
